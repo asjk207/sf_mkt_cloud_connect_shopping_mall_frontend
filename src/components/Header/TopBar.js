@@ -12,7 +12,9 @@ const TopBar = () => {
       <Link to={`/login`}>
         <a href="#login">Login</a>
       </Link>
+      <Link to={`/cart`}>
         <a href="#cart">Cart</a>
+      </Link>
       </div>
     </div>
   );
